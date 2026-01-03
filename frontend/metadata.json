@@ -1,0 +1,8 @@
+{
+  "name": "lovly.pro",
+  "description": "Sistemas avanzados de gestión de realidad e influencia personal.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
