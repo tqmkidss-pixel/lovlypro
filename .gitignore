@@ -1,10 +1,21 @@
-﻿# Node
+﻿# =========================
+# Node.js
+# =========================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Env
+# =========================
+# Firebase
+# =========================
+firebase-debug.log
+.firebaserc
+firebase.json
+
+# =========================
+# Environment variables
+# =========================
 .env
 .env.*
 frontend/.env
@@ -12,10 +23,23 @@ frontend/.env.*
 backend/.env
 backend/.env.*
 
-# Build
+# =========================
+# Build outputs
+# =========================
 dist/
 build/
+frontend/dist/
+backend/dist/
 
-# OS
+# =========================
+# OS / Editor
+# =========================
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log

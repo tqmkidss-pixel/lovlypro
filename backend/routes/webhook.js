@@ -1,0 +1,9 @@
+const express = require("express");
+const router = express.Router();
+
+// Placeholder: luego webhook Stripe (necesitará raw body)
+router.get("/health", (req, res) => {
+  res.json({ status: "ok", route: "webhook" });
+});
+
+module.exports = router;
